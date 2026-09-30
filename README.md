@@ -1,7 +1,7 @@
 # AIM Joystick Probe
 
 A modern, free joystick tester for Windows that shows **every** button on your
-controller — including all **128 buttons** on AIM Ghost Joysticks that Windows'
+controller, including all **128 buttons** on AIM Ghost Joysticks that Windows'
 built-in tester can't display.
 
 ![AIM Joystick Probe](docs/screenshot.png)
@@ -20,19 +20,23 @@ Get the latest **AIM-Joystick-Probe-Setup.exe** from the
 page.
 
 The installer and the app are code-signed by Invictus Machine LLC, so Windows
-installs them without flagging an unknown publisher. It installs **per-user — no
+installs them without flagging an unknown publisher. It installs **per-user, with no
 administrator rights required**. There's a step-by-step install guide in the
 [Wiki](https://github.com/invictuscockpits/aim-joystick-probe-releases/wiki/Getting-Started).
 
 ## Features
 
-- **Full button map** — all 128 buttons, live, with no 32-button cap
-- **X / Y axis pad** — concentric-ring view with a live position dot
-- **Axes & POV hats** — familiar names you already know from the Windows panel
-- **Test-All mode** — latches each button as you press it, with a running tested
+- **Full button map:** all 128 buttons, live, with no 32-button cap
+- **X / Y axis pad:** concentric-ring view with a live position dot
+- **Axes & POV hats:** familiar names you already know from the Windows panel
+- **Test-All mode:** latches each button as you press it, with a running tested
   count, so you can confirm every control on a freshly built panel
 - **Last-pressed and held-count** readouts for quick stuck-input and wiring checks
-- **AIM Ghost control labels** — buttons on an AIM Ghost Joystick show the F-16
+- **Activity on every device:** touch any controller and its row in the sidebar
+  lights up with the input it saw, so you can tell which device a control
+  belongs to without selecting it first
+- Works with button-only panels and axis-only pedals, not just full joysticks
+- **AIM Ghost control labels:** buttons on an AIM Ghost Joystick show the F-16
   cockpit control they're mapped to
 - **Always-on-top** toggle and a remembered window size
 - **Automatic update check** with an in-app banner when a newer version is available
@@ -44,9 +48,9 @@ The full guide lives in the
 
 ## Support
 
-- **Questions or bugs** — open an
+- **Questions or bugs:** open an
   [issue](https://github.com/invictuscockpits/aim-joystick-probe-releases/issues).
-- **Updates** — the app checks for a newer version on launch; you can also watch
+- **Updates:** the app checks for a newer version on launch; you can also watch
   this repository's Releases.
 
 ## License
