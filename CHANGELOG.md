@@ -2,6 +2,36 @@
 
 All notable changes to AIM Joystick Probe are documented here.
 
+## 1.2.0 (2026-10-03)
+
+### New
+
+- **Axis quality:** travel and full range (✓), noise, effective resolution
+  in bits, and a History graph of one or all axes
+- **Real axis names** from the device (AIM Ghost axes 7 and 8 are the Dial
+  and the Slider)
+- **X / Y trail** and a **Centering** card (rest points magnified 10x, with
+  spread and offset)
+- **Event log** with **switch bounce** detection; Test all covers axes
+- **Report rate** in Hz; **identical devices** numbered
+- **Force feedback and rumble test** (experimental)
+- **Save snapshot** (choosable folder) and **Copy diagnostics**
+- **Settings** gear, collapsible cards, and an info icon on every card
+- Installer shows the license agreement and ships third-party notices
+
+### Changed
+
+- License: free for personal or commercial use; unmodified copies may be
+  shared and redistributed free of charge
+- Bundled Montserrat and JetBrains Mono fonts
+- The X / Y dot shows the true reading, without smoothing
+
+### Fixed
+
+- Axis noise on devices that roll over end to end; resolution on
+  high-resolution devices
+- "-0.00" in readouts
+
 ## 1.1.0 (2026-09-30)
 
 ### New
