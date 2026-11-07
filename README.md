@@ -43,7 +43,8 @@ administrator rights required**. There's a step-by-step install guide in the
   cockpit control they're mapped to
 - **Settings** to choose what's on screen, **collapsible cards**, and
   **always on top**
-- **Automatic update check** with an in-app banner when a newer version is available
+- **Built-in updates:** a banner when a newer version is available, with the
+  installer downloaded inside the app
 
 ## Documentation
 
@@ -54,8 +55,9 @@ The full guide lives in the
 
 - **Questions or bugs:** open an
   [issue](https://github.com/invictuscockpits/aim-joystick-probe-releases/issues).
-- **Updates:** the app checks for a newer version on launch; you can also watch
-  this repository's Releases.
+- **Updates:** the app checks for a newer version on launch and downloads it
+  for you (Settings has **Check for updates**); you can also watch this
+  repository's Releases.
 
 ## License
 

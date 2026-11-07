@@ -2,6 +2,34 @@
 
 All notable changes to AIM Joystick Probe are documented here.
 
+## 1.2.2 (2026-11-07)
+
+### New
+
+- Updates download inside the app: the banner shows the progress, then
+  **Run installer** (the same flow as the Invictus Livery Manager)
+- **Software** section in Settings with the version and **Check for updates**
+
+### Changed
+
+- The update banner can no longer be dismissed; it stays until you update
+
+## 1.2.1 (2026-11-07)
+
+### Fixed
+
+- Text could show the wrong letters when a different Montserrat was installed
+  in Windows; the bundled fonts now have their own names
+- A very short press (an encoder click) counts as tested in Test all
+- Plugging or unplugging another device keeps the selected device and its
+  test progress
+- Report rate always belongs to the selected device; ambiguous matches show
+  as unavailable, and no more brief jumps to 10,000 Hz
+- Switch bounce is flagged as "possible bounce", and a pause in the app no
+  longer shows up as bounce
+- Copy diagnostics says when the Windows device list couldn't be read
+- Stop also ends a gamepad rumble test
+
 ## 1.2.0 (2026-10-03)
 
 ### New
